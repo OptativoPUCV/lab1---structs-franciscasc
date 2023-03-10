@@ -33,7 +33,6 @@ int cmp (const void *a, const void *b)
 }
 void arrayMaxMin(int *a, int n, int *max, int *min) {
     qsort(&a, n, sizeof(int), cmp);
-    *max = a[n];
 }
 
 
