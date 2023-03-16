@@ -91,7 +91,12 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-   return 0;
+  Vector *valor;
+  for(i = 0; i < 3; i++){
+     *valor = v[i];
+  }
+  
+   return valor;
 }
 
 /*

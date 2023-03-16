@@ -65,3 +65,20 @@ exercises.c:104:17: error: invalid operands to binary + (have ‘Vector’ and �
       |             Vector Vector
 Compilation failed
 c5da649
+Thu 16 Mar 2023 04:47:12 PM UTC: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:99:11: error: returning ‘Vector *’ from a function with return type ‘int’ makes integer from pointer without a cast [-Werror=int-conversion]
+   99 |    return valor;
+      |           ^~~~~
+exercises.c: In function ‘sumaV’:
+exercises.c:109:17: error: invalid operands to binary + (have ‘Vector’ and ‘Vector’)
+  109 |     c[i] = a[i] + b[i];
+      |            ~~~~ ^ ~~~~
+      |             |      |
+      |             Vector Vector
+cc1: all warnings being treated as errors
+Compilation failed
+04ef3b0
