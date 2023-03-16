@@ -93,3 +93,9 @@ exercises.c:94:8: error: variable ‘valor’ set but not used [-Werror=unused-b
 cc1: all warnings being treated as errors
 Compilation failed
 e48b076
+Thu 16 Mar 2023 04:53:26 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  2|5
+total_score: 20/70
+d3382fd
