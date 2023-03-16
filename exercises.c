@@ -54,9 +54,8 @@ typedef struct {
 Persona* crearPersona(char nombre[], char rut[], int edad) {
   Persona * p = (Persona *) malloc(sizeof(Persona));
   if(p == NULL) exit(EXIT_FAILURE);
-  printf("%s", p->nombre);
    //asignar valores de entrada a los campos de p
-  return p;
+  return p->nombre;
 }
 
 /*
