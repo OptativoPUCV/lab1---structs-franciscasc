@@ -169,3 +169,9 @@ exercises.c:58:10: error: ‘*p.nombre[0]’ may be used uninitialized [-Werror=
 cc1: all warnings being treated as errors
 Compilation failed
 eea66db
+Thu 16 Mar 2023 05:16:53 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+4f638bf
