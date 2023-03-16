@@ -155,3 +155,17 @@ exercises.c:58:10: error: returning ‘char *’ from a function with incompatib
 cc1: all warnings being treated as errors
 Compilation failed
 fe0c7ff
+Thu 16 Mar 2023 05:16:39 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:58:10: error: returning ‘char’ from a function with return type ‘Persona *’ makes pointer from integer without a cast [-Werror=int-conversion]
+   58 |   return *p->nombre;
+      |          ^~~~~~~~~~
+exercises.c:58:10: error: ‘*p.nombre[0]’ may be used uninitialized [-Werror=maybe-uninitialized]
+   58 |   return *p->nombre;
+      |          ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+eea66db
