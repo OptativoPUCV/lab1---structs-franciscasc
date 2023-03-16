@@ -82,3 +82,14 @@ exercises.c:109:17: error: invalid operands to binary + (have ‘Vector’ and �
 cc1: all warnings being treated as errors
 Compilation failed
 04ef3b0
+Thu 16 Mar 2023 04:53:12 PM UTC: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:94:8: error: variable ‘valor’ set but not used [-Werror=unused-but-set-variable]
+   94 |   int *valor;
+      |        ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e48b076
