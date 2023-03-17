@@ -236,3 +236,14 @@ exercises.c:81:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 a1a044e
+Fri 17 Mar 2023 11:58:43 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:81:1: error: control reaches end of non-void function [-Werror=return-type]
+   81 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+80f174a
