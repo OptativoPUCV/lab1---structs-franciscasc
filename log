@@ -187,3 +187,35 @@ Fri 17 Mar 2023 11:44:46 AM UTC:
  tests:  3|4
 total_score: 30/70
 98533e5
+Fri 17 Mar 2023 11:57:34 AM UTC: 
+ exercises.c | 19 +++++++++++--------
+ 1 file changed, 11 insertions(+), 8 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:17: error: invalid operands to binary + (have ‘Vector’ and ‘Vector’)
+  116 |     c[i] = a[i] + b[i];
+      |            ~~~~ ^ ~~~~
+      |             |      |
+      |             Vector Vector
+test.c: In function ‘obtenerValor’:
+test.c:251:5: error: ‘main’ is normally a non-static function [-Werror=main]
+  251 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+test.c:271:1: error: expected declaration or statement at end of input
+  271 | }
+      | ^
+test.c:271:1: error: no return statement in function returning non-void [-Werror=return-type]
+test.c: In function ‘asignarValor’:
+test.c:271:1: error: expected declaration or statement at end of input
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:81:1: error: control reaches end of non-void function [-Werror=return-type]
+   81 | }
+      | ^
+At top level:
+test.c:251:5: error: ‘main’ defined but not used [-Werror=unused-function]
+  251 | int main( int argc, char *argv[] ) {
+      |     ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+b5ca591
