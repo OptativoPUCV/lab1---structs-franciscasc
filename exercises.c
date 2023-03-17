@@ -53,10 +53,10 @@ typedef struct {
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
   Persona * p = (Persona *) malloc(sizeof(Persona));
+  //asignar valores de entrada a los campos de p
   strcpy(p->nombre, nombre);
   strcpy(p->rut, rut);
   p->edad = edad;
-  //asignar valores de entrada a los campos de p
   return p;
 }
 
@@ -130,6 +130,7 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
 
   obtenerValor(aux, largo);
   obtenerValor(auxb, largo);
+  
   sumaV(aux, auxb, c);
   
 }
