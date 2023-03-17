@@ -88,8 +88,8 @@ la cual asigna el valor a la posición i del vector v.
 void asignarValor(Vector * v, int i, int valor) {
   /*for(i = 0; i < 3; i++){
     v[i] = valor;
-  }
-}*/
+  }*/
+}
 
 /*
 Ejercicio 6.
@@ -102,9 +102,9 @@ int obtenerValor(Vector * v, int i) {
   for(i = 0; i < 3; i++){
     
      
-  }
+  }*/
    return 0;
-}*/
+}
 
 /*
 Ejercicio 7.
