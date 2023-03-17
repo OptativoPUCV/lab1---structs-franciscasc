@@ -127,7 +127,9 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
 
   asignarValor(auxb, largo, b1);
   asignarValor(auxb, largo, b2);
-  
+
+  obtenerValor(aux, largo);
+  obtenerValor(auxb, largo);
   sumaV(aux, auxb, c);
   
 }
